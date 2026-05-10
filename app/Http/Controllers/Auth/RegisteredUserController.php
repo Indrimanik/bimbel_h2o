@@ -44,8 +44,9 @@ class RegisteredUserController extends Controller
 
         event(new Registered($user));
 
-        Auth::login($user);
+        // Tidak login otomatis — user harus login manual
+        // Auth::login($user); <-- baris ini dinonaktifkan
 
-        return redirect(RouteServiceProvider::HOME);
+        return redirect()->route('login')->with('status', 'Registrasi berhasil! Silakan login dengan akun Anda.');
     }
 }

@@ -17,7 +17,7 @@
     </div>
     <div class="stat-box">
         <div class="stat-icon amber"><i class="fa fa-book-open"></i></div>
-        <div class="stat-info"><h3>8</h3><p>Program Kelas</p></div>
+        <div class="stat-info"><h3>2</h3><p>Program Kelas</p></div>
     </div>
     <div class="stat-box">
         <div class="stat-icon green"><i class="fa fa-chalkboard-user"></i></div>
